@@ -37,6 +37,10 @@ html,
 body {
   padding: 0;
   margin: 0;
+  /* The ring-frame motif deliberately bleeds a few px past its image edges
+     (see .ring-frame-svg); guard against that ever causing real page scroll
+     at narrow widths rather than shrinking the visual effect. */
+  overflow-x: hidden;
 }
 
 body {
