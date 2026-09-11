@@ -1,12 +1,12 @@
 :root {
-  --bg: #14110d;
-  --surface: #1e1912;
-  --surface-raised: #241e15;
-  --gold: #c9a24b;
-  --gold-bright: #e8c873;
-  --ivory: #f2ede3;
-  --muted: #9c9384;
-  --line: rgba(201, 162, 75, 0.28);
+  --bg: #16120d;
+  --surface: #2a2018;
+  --surface-raised: #342819;
+  --gold: #d6a72e;
+  --gold-bright: #f2c752;
+  --ivory: #f7f1e4;
+  --muted: #aca08b;
+  --line: rgba(214, 167, 46, 0.32);
   --ring-grad-a: #e8877a;
   --ring-grad-b: #e8a44d;
 
@@ -1219,7 +1219,8 @@ html[dir="rtl"] .link-underline::after {
 
 .location-card-meta {
   display: flex;
-  gap: 28px;
+  flex-direction: column;
+  gap: 10px;
   margin-block: 6px 4px;
 }
 
@@ -1231,6 +1232,7 @@ html[dir="rtl"] .link-underline::after {
 
 .location-card-meta dd {
   font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 .location-card .btn {
